@@ -1,0 +1,284 @@
+/* Utilities */
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+ }
+/* html, body {
+    margin: 0;
+    padding: 0;
+  }  */
+  
+  /* html {
+    font-size: 15px;
+    background-color: #a9a9a9;
+  } */
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    color:#333;
+    overflow-x: hidden;
+  }
+
+  .container{
+      max-width: 1100px;
+      margin: auto;
+  }
+
+  .text-primary{
+      color: #3693ff;
+  }
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+  /* || typography */
+  
+  /* h1, h2, h3 {
+    font-family: 'Sonsie One', cursive;
+    color: #2a2a2a;
+  }
+  
+  p, input, li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2a2a2a;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+  }
+  
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  } */
+  
+  /* || header layout */
+  
+  /* nav, article, aside, footer {
+    background-color: white;
+    padding: 1%;
+  }
+   */
+
+   /* navigation */
+
+  #navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+  }
+  
+  #navbar h2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+  }
+
+  #navbar li a:hover {
+      background-color: #3693ff;
+  }
+  
+
+  
+  
+  /* nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  } */ 
+  
+  /* input {
+    font-size: 1.6rem;
+    height: 32px;
+  }
+  
+  input[type="search"] {
+    flex: 3;
+  }
+  
+  input[type="submit"] {
+    flex: 1;
+    margin-left: 1rem;
+    background: #333;
+    border: 0;
+    color: white;
+  }
+  
+  /* || main layout */
+  
+  #showcase {
+    background: url(../New\ folder/DSC_0488.jpg) no-repeat center center/cover;
+    height: 90vh;
+  }
+  
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.content h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.content .btn{
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+}
+
+.content .btn:hover{
+    background: #3693ff;
+    color: #fff;
+
+}
+
+.btn{
+    color: #3693ff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #3693ff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#about{
+    padding: 5rem 0;
+
+}
+
+#about h3 #services h3{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#about h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p.s {
+    margin-bottom: 1rem;
+}
+
+#about .about-content{
+    display: flex;
+}
+
+#about .about-summary, .about-img{
+    flex: 1;
+}
+
+#about .s{
+    text-align: justify;
+}
+
+#about .about-img img{
+    display: block;
+    margin-left: auto;
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+
+/* services */
+
+#services{
+    padding: 5rem 0;
+
+}
+
+#services h4{
+    text-align: justify;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#services .a{
+    display: flex;    
+}
+
+#services .b{
+    background: #fff;
+    flex: 1;
+    padding: 3rem;
+    margin: 0 3rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+  /* article {
+    flex: 4;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: #ff80ff;
+  }
+  
+  aside li {
+    padding-bottom: 10px;
+  }
+  
+  footer {
+    margin-top: 10px;
+  }
+
+  .red_paragraph {
+    color: red;
+  }
+
+  #unique_paragraph {
+    font-size: 25px;
+  } */
